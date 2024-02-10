@@ -2,6 +2,8 @@
 
 Welcome to Game2048! This project is a web-based implementation of the popular puzzle game "2048" built using Angular.
 
+<img src="src/assets/game.png">
+
 ## Getting Started
 
 To run the game on your local machine, follow these steps:
