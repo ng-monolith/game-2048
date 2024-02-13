@@ -13,9 +13,6 @@ export class GameRankingService {
   private rankings: GameResult[] = [];
   private rankingsSubject = new BehaviorSubject<GameResult[]>([]);
 
-  getRankings() {
-    return this.rankingsSubject.asObservable();
-  }
 
   addResult(name: string, score: number) {
     const result: GameResult = { name, score };
